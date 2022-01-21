@@ -1,6 +1,7 @@
 body{
     font-family: 'Outfit', sans-serif;
 font-family: 'Roboto Slab', serif;
+
 }
 h1{
 
@@ -11,6 +12,7 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width:50%;
@@ -29,7 +31,24 @@ border-radius:5px;
 
 }
 .top{
-    background-image:url(images/istockphoto-1157567398-170667a.jpg);
+    background-image:url(images/dense-black-dots-abstract-right-top-corner-white-background-vector-illustration-98267241.jpg);
     background-repeat: no-repeat;
 
+}
+.half{
+    width:50%;
+    padding-right:20%;
+}
+.half img{
+    width:80%;
+    padding-left:40%;
+}
+.second-task{
+    background-image: url(images/images.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.second-task img{
+    padding-right:80%;
 }
