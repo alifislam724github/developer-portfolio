@@ -1,0 +1,35 @@
+body{
+    font-family: 'Outfit', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+h1{
+
+    font-size: 50px;
+}
+.color{
+    color: orange;
+}
+section{
+    display:flex;
+}
+.half-width{
+    width:50%;
+    padding-left:10% 
+}
+.half-width img{
+    width: 60%;
+}
+.link-button{
+text-decoration:none;
+background-image:linear-gradient(red, orange);
+padding: 10px 40px;
+ color:black;
+ font-weight:800;
+border-radius:5px;
+
+}
+.top{
+    background-image:url(images/istockphoto-1157567398-170667a.jpg);
+    background-repeat: no-repeat;
+
+}
