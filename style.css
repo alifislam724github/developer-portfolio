@@ -7,6 +7,9 @@ h1{
 
     font-size: 50px;
 }
+h2{
+    font-size:30px;
+}
 .color{
     color: orange;
 }
@@ -16,7 +19,7 @@ h1{
 }
 .half-width{
     width:50%;
-    padding-left:10% 
+    padding-left:10%; 
 }
 .half-width img{
     width: 60%;
@@ -48,4 +51,33 @@ border-radius:5px;
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.experience-area{
+    background-image: url(images/dense-black-dots-abstract-right-top-corner-white-background-vector-illustration-98267241.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.experience-item{
+     width:40%;
+     margin-left:5%;
+     margin-right:5%;
+     padding-left:20px;
+     padding-right:20px;
+     border-radius:10px;
+    box-shadow:10px 10px 40px gray;
+    border-left: 10px solid;
+}
+#web-dev-exp{
+    border-left:5px soid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-exp{
+    border-left:5px soid;
+    border-image:linear-gradient(salmon, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
 }
